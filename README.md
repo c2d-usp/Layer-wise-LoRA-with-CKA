@@ -8,6 +8,14 @@ Our method identifies the most important layers to fine-tune by leveraging a rep
 
 We interpret high similarity as indicating a low impact to changes on internal representations, and therefore low task-specific importance.
 
+Demonstration of our method (Comparison between a model fine-tuned with conventional LoRA and a model fine-tuned with LoRA modules only in selected layers)
+
+
+
+https://github.com/user-attachments/assets/3198430b-1d28-4a95-9d99-06e90dc62410
+
+
+
 ## File Structure
 
 We organize our repository by model architecture. 
