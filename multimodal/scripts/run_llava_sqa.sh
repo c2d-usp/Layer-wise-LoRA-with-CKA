@@ -1,0 +1,14 @@
+python3 finetune_llava.py \
+    --model_name llava-hf/llava-1.5-7b-hf \
+    --dataset_name derek-thomas/ScienceQA \
+    --run_name llava_sqa_0 \
+    --epochs 1 \
+    --per_device_train_batch_size 1 \
+    --grad_accum 16 \
+    --lr 2e-5 \
+    --seed 0 \
+    --lr_scheduler_type cosine \
+    --lora_r 128 \
+    --lora_alpha 128 \
+    --lora_dropout 0.0 \
+    --lora_layers 01010111111111111010000000000001 \

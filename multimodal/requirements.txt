@@ -1,0 +1,4 @@
+transformers==4.55.4
+peft==0.17.1
+datasets==4.0.0
+pillow

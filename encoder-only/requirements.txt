@@ -1,0 +1,10 @@
+accelerate==1.5.2
+datasets==3.4.0
+evaluate==0.4.3
+peft==0.14.0
+protobuf==6.31.1
+transformers==4.49.0
+scikit-learn
+scipy
+numpy
+sentencepiece
